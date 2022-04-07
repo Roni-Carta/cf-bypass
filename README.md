@@ -39,7 +39,7 @@ CF-Bypass is a Scanner that will attempt to bypass Cloudflare by finding the Ori
 		cat subs.txt | cf-bypass [options]; # Uses Security Trails credits
 		cf-bypass check www.cloudflare.com 1.1.1.1
 		cf-bypass -f subs.txt
-		echo www.cloudflare.com | cf-bypass -n st,c
+		echo www.cloudflare.com | cf-bypass -m st,c
 ```
 
 
