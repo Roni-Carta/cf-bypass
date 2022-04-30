@@ -243,7 +243,7 @@ helpage()
   printf "\tExamples:\n\t\tcat subs.txt | cf-bypass [options]; # Uses Security Trails credits\n"
   printf "\t\tcf-bypass check www.cloudflare.com 1.1.1.1\n"
   printf "\t\tcf-bypass -f subs.txt\n"
-  printf "\t\techo www.cloudflare.com | cf-bypass -n st,c\n"
+  printf "\t\techo www.cloudflare.com | cf-bypass -m st,c\n"
   exit 1
 }
 
